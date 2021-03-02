@@ -79,4 +79,8 @@ p{
     .row1{
         grid-template-columns: 2fr 3fr;
     }
+    .image2{
+        width: 100%;
+        height: 100%;
+    }
 }
