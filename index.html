@@ -8,43 +8,175 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f8b2db1666.js" crossorigin="anonymous"></script>
     <title>Statis Thinking | Part 1</title>
   </head>
   <body>
     
-    <nav class="navbar navbar-light">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top" style="background-color: white;">
         <div class="container">
           <a class="navbar-brand" href="#" >
-              <img src="image1.jpg" alt="" height="60px" width="60px" style="border-radius: 50px; margin-right: 20px;">Huyhuy12340</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <img src="image1.jpg" alt="" height="60px" width="60px" style="border-radius: 50px; margin-right: 20px;">Huy Nguyễn</a>
+          <button class="navbar-toggler" style="color: #bf2742;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
+            <ul class="navbar-nav me-auto">
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="nav-item" style="margin-right: 20px;">
+                    <a class="nav-link" href="#">Project Demo</a>
+                  </li>
+                  <li class="nav-item" style="margin-right: 20px;">
+                    <a class="nav-link" href="#">Facebook</a>
+                  </li>
+                  <li class="nav-item" >
+                    <a class="nav-link button1" id="button1" href="#" style="background-color:#bf2742; border-radius: 10px;
+                     color: white; box-shadow: 2px 3px 4px 0px rgba(0, 0, 0, 0.5); padding: 10px 15px 10px 15px;"><i class="fab fa-github" style="margin-right: 5px;"></i>Kho Github</a>
+                  </li>
             </ul>
           </div>
         </div>
       </nav>
-      <div class="container" style="margin-right: 50px; margin-left:50px; margin-top: 2%;">
+      <div class="container fixe" >
+            <div class="row1">
+                <div class="card1">
+                    <h1 class="header">Statistic Thinking</h1>
+                    <h5>Trong phân tích dữ liệu</h5>
+                    <!-- <hr style="width:30%; border: #bf2742; height: 5px;"> -->
+                    <p class="header_sub">Nghe tiêu đề thôi thì căng đấy. Nhưng nội dung thì mình chủ yếu đề cập đến các khái niệm cơ bản cũng như tư duy trong thống kê. Toàn bộ đều là kiến thức cũng như kinh nghiệm chủ quan của mình. 
+                        Vậy nên ai cũng có thể đọc và góp ý được nhé ^^</p>
+                </div>
+                <div class="card2">
+                   <img src="https://image.freepik.com/free-vector/data-inform-illustration-concept_114360-864.jpg" alt="" class="image1" >
+                </div>
 
-asdaddddddddddddddddd
-
+    </div>
 
 </div>
 
+<div class="container" style="margin-top: 50px; height: 4000px;">
+    <div style="margin-top: 120px; text-align: center;">
+        <h2>Đôi Điều Về Thống Kê</h2>
+        <hr     style="border: solid 2px #bf2742; opacity: 1; width: 10%; margin: auto; margin-bottom: 40px; margin-top: 15px;">
+        <p> Thống kê là một dạng phân tích toán học sử dụng các mô hình, qua đó có thể cho người sử dụng thấy được insight trong các tập dữ liệu.
+            Có 2 loại thống kê đó là <strong>thống kê mô tả</strong> và <strong>thống kê suy luận</strong>, nghĩa của nó cũng sát với 2 cụm từ trên vậy.
+            Thống kê mô tả dùng để mô tả các bảng biểu, đồ thị bằng các phương pháp như dùng count, mean, sum .... từ đó thấy được thực tại và có khả năng dự
+            đoán được xu hướng dữ liệu. Nó là tiền đề cho thống kê suy luận để tạo ra các thuật toán nhằm dự đoán xu hướng dữ liệu, mình nghĩ phần này
+            nặng về tính toán hơn và nó cũng là cốt lõi của một lĩnh vực khác - <strong>Machine Learning.</strong>
+            <br>
+            <br>
+            Nhưng .... bài chia sẻ này chỉ giới hạn ở việc thống kê mô tả nên mình cũng không đào sâu về thuật toán. Vì hầu hết mọi người cũng đã học qua thống kê từ những năm cấp 2,3 rồi. Nó chỉ dừng lại
+            ở mức lý thuyết, trong khi bài tập chả mang tính ứng dụng cao. Nên mình sẽ lược bỏ hầu hết các lý thuyết dài dòng,
+            công thức toán học ... mà chỉ đi ôn lại <strong>những khái niệm cơ bản</strong>, và kèm theo đó là áp dụng nó vào <strong>các ví dụ sát với thực tế nhất,</strong> Let's go!!
+        </p>
+    </div>
 
+    <div style="margin-top: 120px;">
+        <h2 style="text-align: center;">Phân Biệt Loại Dữ Liệu</h2>
+        <hr style="border: solid 2px #bf2742; opacity: 1; width: 10%; margin: auto; margin-bottom: 40px; margin-top: 15px;">
+        <p>
+            <strong>Individual - Cá thể: </strong>Bất cứ một tập dữ liệu mang tính chất thống kê đều có cá thể riêng của nó cả, 
+            <i>Chẳng hạn như tập dữ liệu khảo sát mức độ hài lòng của sinh viên về nhà vệ sinh mới, cá thể ở đây sẽ là các sinh viên.</i>
+            <br>
+            <br>
+            <strong>Variable - Biến: </strong>Biến ở đây chỉ những chỉ số mà thống kê mô tả về các cá thể, có <strong>2 loại biến</strong>. Đầu tiên là
+            <strong>Categorical</strong> và <strong>Numeric</strong>. Nó hệt hệt như <strong>qualitative data</strong> <i>( dữ liệu định tính )</i> 
+            và <strong>quantitative data </strong><i>( dữ liệu định lượng )</i> vậy.
+            <br>
+            <br>
+            <strong>Qualitative - Dữ liệu định tính: </strong>Là loại dữ liệu chỉ phản ánh bản chất, nó không hề phản ánh tính hơn kém. <i>Chẳng hạn như là họ tên, địa chỉ, giới tính ...</i> 
+            <br>
+            <br>
+            <strong>Quantitative - Dữ liệu định lượng: </strong>Ngược lại với dữ liệu định tính. <i> Chẳng hạn như là tuổi, thu nhập, chiều cao, cân nặng ... </i>
+            <br>
+            <br>
+            <img src="Variable.png" alt="" style="display: block; margin:auto">
+            <br>
+            <i style="opacity: 0.5; display: block; text-align: center;"> Hình 1: Các loại dữ liệu trong thống kê (Nguồn ảnh: Youtube) </i>
+            <p>Ngoài ra còn khá là nhiều khái niệm khác nhưng mình nghĩ trên đây là cốt lõi rồi, nó sẽ phục vụ cho bạn đọc hiểu được các loại dữ liệu
+                trong bảng biểu.
+            </p>
+        </p>
+    </div>
+
+    <div style="margin-top: 120px">
+        <h2>Bảng Dữ Liệu</h2>
+        <hr     style="border: solid 2px #bf2742; opacity: 1; width: 10%; margin: auto; margin-bottom: 40px; margin-top: 15px;">
+        <p>Phải nói là bảng dữ liệu là dạng cơ bản nhất của thống kê, ở đây ngoài kĩ năng đọc hiểu bảng thì cần phải có những kĩ năng
+            như thao túng, truy vấn dữ liệu từ bản để tìm ra có được insight trong tập dữ liệu, ở đây mình có <strong>2 loại bảng: </strong>
+            Đó là <strong>Bảng 1 chiều</strong> và <strong>Bảng 2 chiều</strong>. Bảng 1 chiều thì như hình 1 lấy, mình khá chắc mọi người cũng hình dung
+            nó ra sao rồi, vậy bảng 2 chiều thì sao ? Chúng ta sẽ lấy 1 ví dụ thực tế để phân tích luôn.
+        </p>
+        <i>Hãy tưởng tượng nhé, trong tay bạn là một tập dữ liệu khảo sát khách hàng, 
+            cụ thể là nó khảo sát cách thức mua hàng của những vị khách. Sếp của bạn yêu cầu dựa vào tập dữ liệu
+            trên mà bạn hãy đưa ra các nhận định khách quan nhất về khách hàng của công ty. Từ các nhận định đó công ty sẽ triển khai
+            các chiến dịch marketing cho hiệu quả nhất. </i>
+            <br>
+            <br>
+            Đầu tiên có 2 loại biến mà bạn cần quan tâm.
+            <strong>Khách hàng mua online hay offline</strong> - loại dữ liệu định tính và 
+            <strong>Khách hàng bao nhiêu tuổi</strong> - loại dữ liệu định lượng.
+            Và sau khi xử lý, chơi đùa, vò đầu bứt óc thì mình ra được cái bảng như này :v 
+            <br>
+            <br>
+        <img src="Table.PNG" alt="" style="display: block; margin: auto;">
+        <br>
+        <br>
+        <p>
+            Nhìn đơn giản phết, nhưng để có được bảng này thì dữ liệu phải được xử lý qua nhiều giai đoạn, tóm tắt thì ở đây mình
+            chia dữ liệu ra thành 2 chiều và đếm số lượng khách hàng. Đầu tiên thì mọi người sẽ tìm 2 cột Online và Offline và xem thử độ tuổi nào chiếm nhiều nhất và ... kết thúc phân tích. Cá là ai cũng nghĩ vậy, nhưng mà chuyện
+            cũng đơn giản như vậy thì tốt quá nhờ. Mình thì khác, khi xem bảng 2 chiều thì bạn cần <strong>xem xét tương quan cả 2 chiều </strong>của nó
+        </p>
+        <p>
+            Bây giờ mình xét chiều dọc trước nhé, mình sẽ tính tổng của 2 cột Online và Offline, ra được cái bảng như này.   
+        </p>
+        <br>
+        <img src="Table2.PNG" alt="" style="display: block; margin: auto;">
+        <br>
+        <br>
+        <p>Vậy bây giờ mình sẽ làm gì với cái bảng này ?, đó là chuyển nó qua một loại bảng là frequency table - bảng tần suất. Chúng ta sẽ được cái bảng như này.</p>
+        <img src="Table3.PNG" alt="" style="display: block; margin: auto;">
+        <br>
+        <br>
+        <p>
+            Wow, bây giờ cái nhìn của chúng ta rõ ràng hơn rồi đấy nhỉ. Ở đây mình nhìn thấy <strong>hơn một nửa khách hàng mua theo hình thức offline có độ tuổi lớn hơn 30</strong>.
+            Các bạn có thể nhìn thấy sự chênh lệch rất nhiều trên cột Offline, cụ thể là % người lớn hơn 30 tuổi <strong>gấp đôi</strong> % người từ 18 đến 30 tuổi.
+            Do đó chúng ta có thể nhận định rằng phần lớn những người mua hàng theo hình thức offline là những người lớn hơn 30 tuổi 
+        </p>
+        <p>
+            Vậy ở hình thức online thì sao, thật khó để đưa ra nhận định được vì đúng là người mua online có độ tuổi nhỏ hơn 18 là cao nhất.
+            Nhưng mức chênh lệch giữa vị trí thứ 1 và thứ 2 thật sự không quá nhiều ( 44% so với 34% ). Tiếp tục chúng ta sẽ xem xét tới chiều ngang với cách xử lý dữ liệu như trên
+            , chúng ta sẽ có được cái bảng như này.
+        </p>
+        <br>
+        <img src="Table4.PNG" alt="" style="display: block; margin: auto;">
+        <br>
+        <br>
+        <p>
+            Well ... bây giờ rõ part 2 rồi nhé, ở <strong>nhóm khách hàng nhỏ hơn 18 tuổi, có lượng người mua online hơn gấp đôi lượng người mua offline</strong>.
+            Và ở <strong> nhóm khách hàng lớn hơn 30 tuổi, chênh lệch còn lớn hơn khi người mua offline của nhóm này gấp 3 lần lượng người mua online. </strong>
+            Ở nhóm khách hàng độ tuổi từ 18 đến 30 là khó đưa ra nhận định nhất, vì sự chênh lệch giữa online và offline không quá cách biệt
+        </p>
+        <p>
+            Tóm lại, dựa vào các phân tích trên, chúng ta có thể đưa ra 1 vài nhận định như sau:
+        </p>
+        <strong>
+        <li> Khách hàng dưới 18 tuổi có lượng người mua online gấp đôi offline </li>
+        <li> Khách hàng trong độ tuổi 18 đến 30 thường có xu hướng mua online nhiều hơn là mua offline </li>
+        <li> Khách hàng lớn hơn 30 tuổi có lượng người mua offline gấp 3 lần online </li>
+        <li> Khách hàng có độ tuổi càng thấp thì càng có nhiều khả năng mua online hơn và ngược lại</li>
+        </strong>
+        <br>
+        <p>
+            Vậy là kết thúc phần 1, mình mong là mọi người phần nào hiểu rõ được các loại biến, cách tư duy phân tích dữ liệu ở dạng bảng. Ở các
+            phần tiếp theo mình sẽ đi qua các khái niệm rộng hơn, cũng như tư duy phân tích dữ liệu ở dạng biểu đồ. Cảm ơn mọi người đã đọc ạ !
+        </p>
+    </div>
+</div>
+
+<hr style="border: solid 2px #bf2742; opacity: 1; margin: auto; margin-bottom: 10px; margin-top: 15px;">
+  <p style="text-align: center; margin-bottom: 15px;">Create by Huy Nguyen | 2021</p>
 
 
 
@@ -68,8 +200,8 @@ asdaddddddddddddddddd
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     
-<!--     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script> -->
-   
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
   </body>
 </html>
